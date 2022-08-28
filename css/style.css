@@ -9,6 +9,7 @@
 body {
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   color: var(--second-font-color);
+  box-sizing: border-box;
 }
 
 /* ====== SAME COMPONENTS ====== */
