@@ -87,6 +87,9 @@ li {
   height: 16px;
   display: flex;
 }
+.section-right {
+  justify-content: end;
+}
 
 /* ====== END HEADER ====== */
 
