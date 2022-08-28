@@ -10,9 +10,14 @@ body {
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   color: var(--second-font-color);
   box-sizing: border-box;
+  width: 1200px;
+}
+li {
+  list-style: none;
 }
 
 /* ====== SAME COMPONENTS ====== */
+
 .web-color {
   color: var(--active-color);
 }
@@ -28,6 +33,14 @@ body {
 }
 .link {
   cursor: pointer;
+}
+.container {
+  width: 1200px;
+}
+.logo {
+  padding: 25px 1240px 25px 215px;
+  width: 145px;
+  height: 31px;
 }
 /* ====== END SAME COMPONENTS ====== */
 
@@ -68,6 +81,11 @@ body {
 .contact-list-item-phone {
   color: var(--main-font-color);
   text-decoration: none;
+}
+.header-list {
+  width: 254px;
+  height: 16px;
+  display: flex;
 }
 
 /* ====== END HEADER ====== */
