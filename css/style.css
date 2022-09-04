@@ -82,13 +82,10 @@ li {
   color: var(--main-font-color);
   text-decoration: none;
 }
-.header-list {
+.header-list .header-list-item {
   width: 254px;
   height: 16px;
-  display: flex;
-}
-.section-right {
-  justify-content: end;
+  display: inline-block;
 }
 
 /* ====== END HEADER ====== */
@@ -99,11 +96,34 @@ li {
 }
 .main-section-title {
   color: #ffffff;
+  width: 696px;
+  height: 120px;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  margin: 0 auto;
 }
 .main-section-btn {
   background-color: var(--active-color);
   color: #ffffff;
+  font-weight: 700;
+  border: none;
+  letter-spacing: 2px;
+  font-size: inherit;
+  display: inline-block;
+  padding: 10px 41px 10px 41px;
+  border-radius: 4px;
+  width: 117px;
+  height: 30px;
+  text-align: center;
+}
+.first-page-button {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: var(--active-color);
+  justify-content: center;
 }
 /* ====== END MAIN SECTION ====== */
 
@@ -121,6 +141,20 @@ li {
   letter-spacing: 1.5px;
   color: var(--main-font-color);
 }
+.assets-section-list-item {
+  display: flex;
+  width: 1170px;
+  height: 101px;
+  justify-content: space-evenly;
+}
+.assets-section-list-header {
+  width: 270px;
+  height: 16px;
+}
+.assets-section-list-description {
+  width: 270px;
+  height: 75px;
+}
 /* ====== END ASSETS SECTION ====== */
 
 /* ====== SERVICE SECTION ====== */
@@ -129,6 +163,11 @@ li {
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
+}
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 /* ====== END SERVICE SECTION ====== */
 
