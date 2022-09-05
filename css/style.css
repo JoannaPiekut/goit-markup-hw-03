@@ -38,13 +38,19 @@ li {
   width: 1200px;
 }
 .logo {
-  padding: 25px 1240px 25px 215px;
   width: 145px;
   height: 31px;
 }
 /* ====== END SAME COMPONENTS ====== */
 
 /* ====== HEADER ====== */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 80px;
+}
 
 .header-list-item {
   text-decoration: none;
@@ -91,7 +97,7 @@ li {
 /* ====== END HEADER ====== */
 
 /* ====== MAIN SECTION ====== */
-ZMIENIĆ .main-section {
+.main-section {
   background-color: var(--second-background);
 }
 .main-section-title {
@@ -128,11 +134,18 @@ ZMIENIĆ .main-section {
 /* ====== END MAIN SECTION ====== */
 
 /* ====== ASSETS SECTION ====== */
+.assets-section-list {
+  padding: 94px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: column;
+}
 .assets-section-list-header {
   font-style: 700;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 1.5px;
+  display: flex;
 }
 .assets-section-list-description {
   font-style: 400;
@@ -140,21 +153,21 @@ ZMIENIĆ .main-section {
   line-height: 1.714;
   letter-spacing: 1.5px;
   color: var(--main-font-color);
+  display: flex;
 }
 .assets-section-list-item {
   display: flex;
-  width: 1170px;
   height: 101px;
   justify-content: space-evenly;
 }
-.assets-section-list-header {
+/* .assets-section-list-header {
   width: 270px;
   height: 16px;
 }
 .assets-section-list-description {
   width: 270px;
   height: 75px;
-}
+} */
 /* ====== END ASSETS SECTION ====== */
 
 /* ====== SERVICE SECTION ====== */
@@ -165,15 +178,21 @@ ZMIENIĆ .main-section {
   text-align: center;
 }
 .service {
+  padding: 94px 0;
+}
+.service-list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  justify-content: space-between;
 }
 /* ====== END SERVICE SECTION ====== */
 
 /* ====== TEAM SECTION ====== */
 .our-team {
   background-color: var(--third-background);
+}
+.our-team-list {
+  display: flex;
+  justify-content: space-around;
 }
 .our-team-header {
   font-style: 700;
@@ -201,7 +220,9 @@ ZMIENIĆ .main-section {
 }
 .footer-section {
   background-color: var(--second-background);
+  height: 252px;
 }
+
 .footer-section-address-description {
   font-style: normal;
   font-size: 14px;
@@ -209,6 +230,7 @@ ZMIENIĆ .main-section {
   letter-spacing: 1.5px;
   color: #ffffff;
 }
+
 .footer-section-address-mail,
 .footer-section-address-phone {
   font-weight: 400;
@@ -218,6 +240,7 @@ ZMIENIĆ .main-section {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 1.5px;
+  background-color: var(--second-background);
 }
 .footer-section-address-mail:hover,
 .footer-section-address-mail:focus {
