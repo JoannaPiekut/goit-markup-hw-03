@@ -91,7 +91,7 @@ li {
 /* ====== END HEADER ====== */
 
 /* ====== MAIN SECTION ====== */
-.main-section {
+ZMIENIĆ .main-section {
   background-color: var(--second-background);
 }
 .main-section-title {
