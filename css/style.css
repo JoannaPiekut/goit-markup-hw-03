@@ -223,11 +223,11 @@ li {
   padding-top: 10px;
 }
 .our-team-list-item {
-  background-color: #ffffff
+  background-color: #ffffff;
 }
-.our-team-list-item-figcaption{
- text-align: center;
- padding: 30px;
+.our-team-list-item-figcaption {
+  text-align: center;
+  padding: 30px;
 }
 /* ====== END TEAM SECTION ====== */
 
@@ -235,6 +235,9 @@ li {
 
 .footer-studio {
   color: #ffffff;
+}
+.footer {
+  padding: 70px;
 }
 .footer-section {
   background-color: var(--second-background);
@@ -247,6 +250,8 @@ li {
   line-height: 1.714;
   letter-spacing: 1.5px;
   color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .footer-section-address-mail,
@@ -259,6 +264,7 @@ li {
   line-height: 1.714;
   letter-spacing: 1.5px;
   background-color: var(--second-background);
+  padding-top: 10px;
 }
 .footer-section-address-mail:hover,
 .footer-section-address-mail:focus {
@@ -270,6 +276,17 @@ li {
 /* =============== PORTFOLIO PAGE =============== */
 
 /* ====== MENU SECTION ====== */
+.menu {
+  display: flex;
+  padding-inline-start: 0px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.button-list {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
 
 .button {
   background-color: var(--button-background);
@@ -289,6 +306,12 @@ li {
 /* ====== END MENU SECTION ====== */
 
 /* ====== CATEGORIES SECTION ====== */
+.categories-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 0px;
+}
+
 /* .categories {
 }
 .categories-list {
