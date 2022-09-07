@@ -41,6 +41,9 @@ li {
   width: 145px;
   height: 31px;
 }
+.section {
+  padding: 94px 0;
+}
 /* ====== END SAME COMPONENTS ====== */
 
 /* ====== HEADER ====== */
@@ -279,11 +282,11 @@ li {
 .menu {
   display: flex;
   padding-inline-start: 0px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  justify-content: center;
+  gap: 40px;
 }
 .button-list {
-  margin: 0 auto;
+  margin: 0;
   justify-content: center;
   align-items: center;
 }
