@@ -48,7 +48,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
   height: 80px;
 }
 
@@ -58,8 +58,8 @@ li {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 1.5px;
+  padding-left: 10px;
 }
-
 .header-list-item-link {
   color: var(--second-font-color);
   text-decoration: none;
@@ -69,12 +69,15 @@ li {
   color: var(--active-color);
 }
 .contact-list-item {
+  display: inline-block;
   text-decoration: none;
   font-style: 500;
   font-size: 14px;
   line-height: 1.143;
   color: var(--main-font-color);
   letter-spacing: 1.5px;
+  justify-content: space-between;
+  padding-left: 10px;
 }
 .contact-list-item-mail {
   color: var(--main-font-color);
@@ -89,7 +92,6 @@ li {
   text-decoration: none;
 }
 .header-list .header-list-item {
-  width: 254px;
   height: 16px;
   display: inline-block;
 }
@@ -99,17 +101,21 @@ li {
 /* ====== MAIN SECTION ====== */
 .main-section {
   background-color: var(--second-background);
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
 }
 .main-section-title {
   color: #ffffff;
-  width: 696px;
+  width: 450px;
   height: 120px;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  padding-top: 100px;
+  padding-bottom: 20px;
   margin: 0 auto;
 }
-.main-section-btn {
+/* .main-section-btn{
   background-color: var(--active-color);
   color: #ffffff;
   font-weight: 700;
@@ -117,28 +123,32 @@ li {
   letter-spacing: 2px;
   font-size: inherit;
   display: inline-block;
-  padding: 10px 41px 10px 41px;
-  border-radius: 4px;
+  
   width: 117px;
   height: 30px;
-  text-align: center;
-}
-.first-page-button {
-  display: flex;
-  width: 200px;
-  height: 50px;
-  margin: 0 auto;
+  
+} */
+.first-page-button .link {
+  display: block;
+  color: #ffffff;
   background-color: var(--active-color);
-  justify-content: center;
+  font-weight: 700;
+  border: none;
+  letter-spacing: 2px;
+  font-size: inherit;
+  border-radius: 4px;
+  margin: 70px 550px;
+  width: 117px;
+  align-items: center;
 }
 /* ====== END MAIN SECTION ====== */
 
 /* ====== ASSETS SECTION ====== */
 .assets-section-list {
-  padding: 94px 0;
+  padding: 94px 40px;
   display: flex;
-  justify-content: space-around;
-  align-items: column;
+  justify-content: space-evenly;
+  margin: auto;
 }
 .assets-section-list-header {
   font-style: 700;
@@ -146,6 +156,8 @@ li {
   line-height: 1.143;
   letter-spacing: 1.5px;
   display: flex;
+  margin-left: 0;
+  padding: 0 10px 10px 0px;
 }
 .assets-section-list-description {
   font-style: 400;
@@ -154,20 +166,13 @@ li {
   letter-spacing: 1.5px;
   color: var(--main-font-color);
   display: flex;
+  padding: 0 10px 10px 0px;
 }
 .assets-section-list-item {
   display: flex;
-  height: 101px;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-direction: column;
 }
-/* .assets-section-list-header {
-  width: 270px;
-  height: 16px;
-}
-.assets-section-list-description {
-  width: 270px;
-  height: 75px;
-} */
 /* ====== END ASSETS SECTION ====== */
 
 /* ====== SERVICE SECTION ====== */
@@ -176,29 +181,34 @@ li {
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
+  padding-bottom: 50px;
 }
 .service {
-  padding: 94px 0;
+  padding: 50px 0;
 }
 .service-list {
   display: flex;
   justify-content: space-between;
+  padding-inline-start: 0px;
 }
 /* ====== END SERVICE SECTION ====== */
 
 /* ====== TEAM SECTION ====== */
 .our-team {
   background-color: var(--third-background);
+  padding: 94px 0px;
 }
 .our-team-list {
   display: flex;
   justify-content: space-around;
+  padding-inline-start: 0px;
 }
 .our-team-header {
   font-style: 700;
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
+  padding-bottom: 40px;
 }
 .worker-name {
   font-style: 500;
@@ -210,6 +220,14 @@ li {
   font-size: 16px;
   line-height: 1.188;
   color: var(--main-font-color);
+  padding-top: 10px;
+}
+.our-team-list-item {
+  background-color: #ffffff
+}
+.our-team-list-item-figcaption{
+ text-align: center;
+ padding: 30px;
 }
 /* ====== END TEAM SECTION ====== */
 
